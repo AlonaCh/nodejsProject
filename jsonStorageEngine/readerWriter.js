@@ -26,4 +26,4 @@ async function writeStorage(storageFile, data) {
         return false;
     }
 }
-module.export = { readStorage, writeStorage }
+module.exports = { readStorage, writeStorage }
