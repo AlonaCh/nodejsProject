@@ -9,7 +9,7 @@
 
     function init() {
         resultarea = document.getElementById('resultarea');
-        inputField = document.getElementById('productId'); //?
+        inputField = document.getElementById('productId'); //from html remove
 
         document.getElementById('submit')
             .addEventListener('click', send);

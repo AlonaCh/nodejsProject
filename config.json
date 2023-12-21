@@ -1,4 +1,16 @@
 {
     "port": 3000,
-    "host": "localhost"
+    "host": "localhost",
+    "storageEngine": {
+        "folder": "jsonStorageEngine",
+        "dataStorageFile": "dataStorageLayer.js"
+    },
+    "storage": {
+        "folder": "productRegister",
+        "storageConfigFile": "storageConfig.json"
+    },
+    "library": {
+        "folder": "library",
+        "requestHandler": "libraryForRequesthandling.js"
+    }
 }
