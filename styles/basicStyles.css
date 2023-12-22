@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+body{
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: rgb(104, 104, 213);
+
+  min-height: 100vh;
+  text-align: center;
+}
+.menuContainer{
+ margin: 40px;
+}
+.error {
+    color: red;
+}
+.info{
+    color: rgb(104, 104, 213);
+}
+button{
+    border-radius: 10px;
+    border: 1px solid blue;
+  padding: 1rem 1rem;
+  color: rgb(36, 36, 83);
+  margin: 15px;
+  background-color: #F4F4FA;
+  font-size: 20px;
+
+}
+button:hover{
+    background-color: #EBEAFA;
+}
+.allProducts{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+table, th, td {
+    border: 1px solid;
+    color: rgb(36, 36, 83);
+  }
+  table {
+    width: 100%;
+  }
+  .search{
+    margin: 20px;
+  }
+  select, input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin: 20px;
+  }
+  .insert {
+     margin: 20px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+  }

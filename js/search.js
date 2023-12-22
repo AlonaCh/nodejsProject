@@ -83,11 +83,11 @@
 
     function createProduct(product) {
         return `<div class="product">
-        <p>id: ${product.id}</p>
-        <p>First name: ${product.name}</p>
-        <p>Last name: ${product.model}</p>
-        <p>Department: ${product.price}</p>
-        <p>Salary: ${product.type}</p>
+        <p>Id: ${product.productId}</p>
+        <p>Name: ${product.name}</p>
+        <p>Model: ${product.model}</p>
+        <p>Price: ${product.price}</p>
+        <p>Type: ${product.type}</p>
     </div>`
     }
 

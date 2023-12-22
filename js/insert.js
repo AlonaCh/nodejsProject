@@ -7,7 +7,7 @@
     let modelField;
     let priceField;
     let typeField;
-
+    let resultarea;
 
     document.addEventListener('DOMContentLoaded', init);
 
@@ -36,7 +36,7 @@
 
     async function send() {
         const product = {
-            id: +idField.value,
+            productId: +idField.value,
             name: nameField.value,
             model: modelField.value,
             price: priceField.value,
